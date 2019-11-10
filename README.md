@@ -2,6 +2,14 @@
 Class based implementation to quickly analyze Redfin real estate listings against Zillow market data
 
 
+**NOTE: I provide no disclaimer over the data obtained through the use of this project. All data is obtained from a combination of Redfin and Zillow. There is no official documentation for the queries being utilized, as such be respectful about how much you query -- query no more than you would query as if you were a front-end user.**
+
+
+Getting started:
+
+(1) Navaigate to RealEstatePandasAnalysis/blob/master/GetData/dataqueryanalyze.py and edit the BaseFilePath variable to the base file path you want to utilize to hold your loaded data.
+
+
 Sample use is maintained in:
 
 (1) RealEstateAnalyzeDataGenerate.py -- sample use for initial load of the data. Before utilizing the data load class you will first need to generate the data.

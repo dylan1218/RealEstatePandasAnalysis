@@ -74,7 +74,7 @@ class RedfinDataRetrieve:
     def Get_Redfin_Data(self):
         print("get data called")
         f = open(self.filepath, 'wb+')
-        useragent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+        useragent = "define your user-agent here"
         headers = {
             'User-Agent': useragent,
             'Sec-Fetch-Mode': 'navigate',
@@ -94,7 +94,7 @@ class RedfinDataRetrieve:
     def Get_Zillow_Data(self):
         print("get data called")
         f = open(self.zillowFilePath, 'wb+')
-        useragent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+        useragent = "define your user-agent here"
         headers = {
             'User-Agent': useragent,
             'Upgrade-Insecure-Requests': '1'
@@ -114,7 +114,7 @@ class RedfinDataRetrieve:
         urlresourcecount = 0
         for urlresource in self.ZillowRentUrlArray:
             f = open(self.ZillowRentArrayFilePath[urlresourcecount], 'wb+')
-            useragent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36"
+            useragent = "define your user-agent here"
             headers = {
                 'User-Agent': useragent,
                 'Upgrade-Insecure-Requests': '1'
