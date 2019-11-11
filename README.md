@@ -1,5 +1,5 @@
 # RealEstatePandasAnalysis
-Class based implementation to quickly analyze Redfin real estate listings against Zillow market data
+Python API wrapper to quickly analyze Redfin real estate listings against Zillow market data utilizing Pandas dataframe objects
 
 
 **NOTE: I provide no disclaimer over the data obtained through the use of this project. All data is obtained from a combination of Redfin and Zillow. There is no official documentation for the queries being utilized, as such be respectful about how much you query -- query no more than you would query as if you were a front-end user.**
