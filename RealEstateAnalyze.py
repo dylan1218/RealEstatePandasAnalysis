@@ -10,7 +10,7 @@ import numpy as np
 #redfin.Get_Zillow_Data() #get market pricing data
 #redfin.Get_ZillowRent_Data() #gets market rental data
 
-#The DataframeLoad object is utilized to return dataframes based upon the data imported from the RedfinDataRetrieve object
+#The DataframeLoad class is utilized to return dataframes based upon the data imported from the RedfinDataRetrieve class
 pandasquery = DataframeLoad()
 
 ZillowDF = pandasquery.GetZillowDF()
